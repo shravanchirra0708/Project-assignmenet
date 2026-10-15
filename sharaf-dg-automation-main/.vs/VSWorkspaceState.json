@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\main",
+    "\\src\\main\\java",
+    "\\src\\main\\java\\com",
+    "\\src\\main\\java\\com\\sharafdg\\dataprovider",
+    "\\src\\main\\resources",
+    "\\src\\main\\resources\\test-data",
+    "\\target\\classes\\com",
+    "\\target\\classes\\com\\sharafdg",
+    "\\target\\classes\\com\\sharafdg\\dao"
+  ],
+  "SelectedNode": "\\src\\test\\java\\com\\sharafdg\\tests\\CheckoutTest.java",
+  "PreviewInSolutionExplorer": false
+}

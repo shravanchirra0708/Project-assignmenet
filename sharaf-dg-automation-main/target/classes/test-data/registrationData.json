@@ -1,0 +1,11 @@
+{
+  "submitValidRegistrationForm" : [
+    {
+      "emailId": "abc1235@gmail.com",
+      "password": "abcd1234",
+      "firstName": "fn",
+      "lastName": "ln",
+      "mobileNumber": "501111111"
+    }
+  ]
+}

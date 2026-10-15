@@ -1,0 +1,60 @@
+package com.sharafdg.page;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class ProductPage extends BasePage {
+
+    @FindBy(xpath = "(//button[contains(@class,'add_to_cart_button') and normalize-space(.)='Add to Cart'])[1]")
+    WebElement addToCartButton;
+
+    @FindBy(xpath = "//span[@class='total--sale-price']")
+    WebElement salePrice;
+
+    @FindBy(xpath = "//*[self::button or self::a][contains(translate(normalize-space(.), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'proceed to checkout')]")
+    WebElement checkoutButton;
+
+    @FindBy(xpath = "//button[@class='checkout-button button alt wc-forward btn btn-primary']")
+    WebElement checkoutButton1;
+    
+
+    @FindBy(className = "product_title")
+    WebElement productTitle;
+
+    @FindBy(xpath = "//div[@class='product-name']//span")
+    WebElement cartProductTitle;
+
+    @FindBy(xpath = "//div[@class='d-flex py-3 justify-content-between cart-total']//span[@class='value ']//span[@class='amount']/span")
+    WebElement cartPrice;
+
+    public ProductPage(WebDriver driver) {
+        super(driver);
+    }
+
+    public String getProductTitle() {
+        return waitUntilElementVisible(productTitle).getText();
+    }
+
+    public String getSalePrice() {
+        return waitUntilElementVisible(salePrice).getText();
+    }
+
+    public void addToCart() {
+        WebElement button1 = waitUntilElementVisible(addToCartButton);
+        js.executeScript("arguments[0].scrollIntoView({block: 'center'}); arguments[0].click();", button1);
+    }
+
+    public void checkoutBtn() {
+        WebElement Chkbutton = waitUntilElementVisible(checkoutButton);
+        js.executeScript("arguments[0].scrollIntoView({block: 'center'}); arguments[0].click();", Chkbutton);
+    }
+
+    public String getCartProductTitle() {return waitUntilElementVisible(cartProductTitle).getText();}
+
+    public String getCartPrice() {
+        WebElement cartamount = waitUntilElementVisible(cartPrice);
+        js.executeScript("arguments[0].scrollIntoView({block: 'center'}); arguments[0]", cartamount);
+        return waitUntilElementVisible(cartPrice).getText();}
+
+}

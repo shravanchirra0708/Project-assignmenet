@@ -1,0 +1,8 @@
+{
+  "loginLogoutValidCredentials": [
+    {
+      "emailId": "abc123@gmail.com",
+      "password": "abcd1234"
+    }
+  ]
+}

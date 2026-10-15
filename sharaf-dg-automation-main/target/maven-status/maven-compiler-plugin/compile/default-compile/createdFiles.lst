@@ -1,0 +1,14 @@
+com\sharafdg\page\OrderSummaryPage.class
+com\sharafdg\page\CheckoutPage.class
+com\sharafdg\Main.class
+com\sharafdg\page\BasePage.class
+com\sharafdg\dao\Dao.class
+com\sharafdg\dataprovider\BaseDataProvider.class
+com\sharafdg\base\BaseTest.class
+com\sharafdg\driver\DriverFactory.class
+com\sharafdg\page\RegistrationPage.class
+com\sharafdg\dao\RegistrationDao.class
+com\sharafdg\page\LoginPage.class
+com\sharafdg\dao\LoginDao.class
+com\sharafdg\page\ProductPage.class
+com\sharafdg\util\DataProviderUtil.class

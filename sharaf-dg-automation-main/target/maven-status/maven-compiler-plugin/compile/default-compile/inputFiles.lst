@@ -1,0 +1,14 @@
+C:\Users\kared\Downloads\sharaf-dg-automation-main\sharaf-dg-automation-main\src\main\java\com\sharafdg\base\BaseTest.java
+C:\Users\kared\Downloads\sharaf-dg-automation-main\sharaf-dg-automation-main\src\main\java\com\sharafdg\dao\Dao.java
+C:\Users\kared\Downloads\sharaf-dg-automation-main\sharaf-dg-automation-main\src\main\java\com\sharafdg\dao\LoginDao.java
+C:\Users\kared\Downloads\sharaf-dg-automation-main\sharaf-dg-automation-main\src\main\java\com\sharafdg\dao\RegistrationDao.java
+C:\Users\kared\Downloads\sharaf-dg-automation-main\sharaf-dg-automation-main\src\main\java\com\sharafdg\dataprovider\BaseDataProvider.java
+C:\Users\kared\Downloads\sharaf-dg-automation-main\sharaf-dg-automation-main\src\main\java\com\sharafdg\driver\DriverFactory.java
+C:\Users\kared\Downloads\sharaf-dg-automation-main\sharaf-dg-automation-main\src\main\java\com\sharafdg\Main.java
+C:\Users\kared\Downloads\sharaf-dg-automation-main\sharaf-dg-automation-main\src\main\java\com\sharafdg\page\BasePage.java
+C:\Users\kared\Downloads\sharaf-dg-automation-main\sharaf-dg-automation-main\src\main\java\com\sharafdg\page\CheckoutPage.java
+C:\Users\kared\Downloads\sharaf-dg-automation-main\sharaf-dg-automation-main\src\main\java\com\sharafdg\page\LoginPage.java
+C:\Users\kared\Downloads\sharaf-dg-automation-main\sharaf-dg-automation-main\src\main\java\com\sharafdg\page\OrderSummaryPage.java
+C:\Users\kared\Downloads\sharaf-dg-automation-main\sharaf-dg-automation-main\src\main\java\com\sharafdg\page\ProductPage.java
+C:\Users\kared\Downloads\sharaf-dg-automation-main\sharaf-dg-automation-main\src\main\java\com\sharafdg\page\RegistrationPage.java
+C:\Users\kared\Downloads\sharaf-dg-automation-main\sharaf-dg-automation-main\src\main\java\com\sharafdg\util\DataProviderUtil.java
